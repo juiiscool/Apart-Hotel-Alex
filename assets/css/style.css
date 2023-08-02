@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: 2;
+    font-family: 'Myriad Pro';
+    color: #4C8DCB;
+}
+
+/* body{
+    background-image: url(../pictures/307216316.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    display: block;
+    opacity: 0.7;
+    z-index: -1;
+} */
+
+/* styling navbar */
+
+.navbar, .services{
+    font-family: 'Myriad Pro';
+    letter-spacing: 3px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.active{
+    color: #F6851F !important;
+}
+
+a:hover{
+    color: #F6851F !important;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+#navbarNav{
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+#alb, #usa{
+    cursor: pointer;
+    width: 28px;
+    margin-right: 2px;
+    align-self: center;
+}
+
+.buttonBookNow{
+    color: #fff !important;
+    border-color: #fff !important;
+    background-color: #4C8DCB;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+}
+
+.buttonBookNow:hover{
+    background-color: #fff !important;
+    color: #4C8DCB !important;
+    border-color: #4C8DCB !important;
+    opacity: 0.9;
+}
+
+/* styling head banner */
+
+#home-head-banner{
+    background: url('../pictures/307216316.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#home-head-banner-about{
+    background: url('../pictures/473822745.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#home-head-banner-rooms{
+    background: url('../pictures/473822016.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#home-head-banner-gallery{
+    background: url('../pictures/473822175.jpg')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#home-head-banner-contact{
+    background: url('../pictures/f78e4213-f307-4810-b7df-cc52fa511679.png')rgba(0,0,0,0.6);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+/* about */
+
+#cardno1{
+    background-color: #1B2431;
+}
+
+.lead{
+    color: #fff !important;
+}
+
+.lead img{
+    padding-bottom: 20px;
+}
+
+.motto{
+    font-size: 18px;
+    font-family: 'Lucida Handwriting';
+}
+
+#buttonAbout{
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding: 10px 30px !important;
+    margin: 0 0 !important;
+    color: #fff;
+    border-color: #fff;
+    background-color: #4C8DCB !important;
+}
+
+#buttonAbout:hover{
+    opacity: 0.8;
+    background-color: #fff !important;
+    color: #4C8DCB !important;
+    border-color: #4C8DCB !important;
+}
+
+.changeColorAbout{
+    color: #1B2431 !important;
+}
+
+/* rooms */
+
+.card-footer{
+    background-color: #1B2431;
+}
+
+/* gallery */
+
+.cardno3{
+    background-color: #4C8DCB;
+}
+
+#buttonGallery{
+    font-size: 20px !important;
+    line-height: 20px !important;
+    padding: 12px 30px !important;
+    color: #4C8DCB;
+    border-color: #4C8DCB;
+    background-color: #fff;
+    margin-left: 43%;
+    font-family: 'Myriad Pro';
+}
+
+#buttonGallery:hover{
+    opacity: 0.8;
+    background-color: #4C8DCB;
+    color: #fff;
+    border-color: #fff;
+}
+
+@media (max-width:320px){
+    #buttonGallery{
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+/* services */
+
+.icons1{
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons1:hover{
+    border-bottom: transparent;
+}
+
+.icons2{
+    border-left: #bfbfbf 1px solid;
+    border-right: #bfbfbf 1px solid;
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons2:hover{
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.icons3{
+    border-bottom: #bfbfbf 1px solid;
+}
+
+.icons3:hover{
+    border-bottom: transparent;
+}
+
+.icons4{
+    border-left: #bfbfbf 1px solid;
+    border-right: #bfbfbf 1px solid;
+}
+
+.icons4:hover{
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.icons img{
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    transform: scale(0.5);
+}
+
+.icons p{
+    font-family: 'Myriad Pro';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons p:hover{
+    color: #F6851F !important;
+}
+
+@media (max-width:768px){
+    .icons1{
+        border-bottom: transparent;
+    }
+
+    .icons2{
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: transparent;
+    }
+
+    .icons3{
+        border-bottom: transparent;
+    }
+
+    .icons4{
+        border-left: transparent;
+        border-right: transparent;
+    }
+}
+
+/* carousel reviews */
+
+.carouselReviews{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    max-width: 800px;
+    width: 100%;
+    background-color: #1B2431;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4em 0;
+}
+
+.swiper {
+    width: 500px;
+    height: 300px;
+}
+
+.comments{
+    color: #fff;
+}
+
+.swiper-button-next{
+    margin-top: 105px;
+    margin-right: 44%;
+    width: 50px;
+}
+
+.swiper-button-next:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media (max-width: 320px){
+    .carouselReviews{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .board{
+        width: 100%;
+    }
+
+    .swiper{
+        width: 600px;
+    }
+
+    .swiper-button-next{
+        display: initial;
+    }
+}
+
+/* back to top */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+    visibility: hidden;
+    box-shadow: 5px 5px 5px;
+}
+
+/* contact */
+
+#cardContact{
+    background-color: #1B2431;
+}
+
+.textContact{
+    color: #fff !important;
+}
